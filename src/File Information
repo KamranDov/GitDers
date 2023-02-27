@@ -98,4 +98,5 @@
  21) HEAD -------------------- git log emrin yazdiqda cixan yazilar icinde lap yuxarda diqqetnen baxilsa HEAD yazilib
      bu o demekdir sen indi hardasan yeni en axrinci commit hansidirsa mende ordayam en axrinci commit-de sanki basda
      durmusam ve sen deyirsenki menim axrinci daxil etdiyim commit-i serf eledim nece qeriye qaytarim? sonuncu daxil
-     etdiyin commit geriye qaytarmaq isdeyirsense
+     etdiyin commit geriye qaytarmaq isdeyirsense git reset --hard HEAD~1 bu emir yazdiqda bir commit geriye qayidacaq.
+     birde bunu qeyd edimki nece commit geriye qayitmagin isdeyirsense HEAD~ sora o commit sayini qeyd edirsen.
