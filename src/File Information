@@ -97,7 +97,7 @@
      bele bir sey qey edimki git log dedikde lap asda emrleri yazdigin yerde hecne yazmaq olmur sadece iki noqte :
      bele olur bundan cixmaq ucun q herifini basirsan cixir ordan.q herifi yeni quit yeni cixis.
 
- 21) HEAD -------------------- git log emrin yazdiqda cixan yazilar icinde lap yuxarda diqqetnen baxilsa HEAD yazilib
+ 21) HEAD or reset -------------------- git log emrin yazdiqda cixan yazilar icinde lap yuxarda diqqetnen baxilsa HEAD yazilib
      bu o demekdir sen indi hardasan yeni en axrinci commit hansidirsa mende ordayam en axrinci commit-de sanki basda
      durmusam ve sen deyirsenki menim axrinci daxil etdiyim commit-i serf eledim nece qeriye qaytarim? sonuncu daxil
      etdiyin commit geriye qaytarmaq isdeyirsense git reset --hard HEAD~1 bu emir yazdiqda bir commit geriye qayidacaq.
