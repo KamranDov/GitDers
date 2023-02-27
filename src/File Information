@@ -19,19 +19,19 @@
     gizli .git adinda bir papka var demeli senin bu proyektin hazirda git-le elaqelidir.
 
 
- 5) clone ------------------- klonlamaq ve ya kopyalamaq yeni ki git-de olan proyekti komp-a klonluyursan
+ 5) git clone ------------------- klonlamaq ve ya kopyalamaq yeni ki git-de olan proyekti komp-a klonluyursan
 
- 6) add . ------------------- git add . git clone-dan sora adinda da belli oldugu kimi proyekte etdiyin deyisikliyi
+ 6) git add . ------------------- git add . git clone-dan sora adinda da belli oldugu kimi proyekte etdiyin deyisikliyi
     git-deki proyekte elave etmek ucun yazilir. ve basqa istifadesin deyim misalcun terminalda git init deyib proyekti
     git ile elaqelendirdikden sora yeni local-da komp-la, sora git commit - m "loop" deyib tesdiqleyirsen yeni
     proyektimizde butun fayllarin git-de tesdiqlensin yeniki heqiqetende bu
 
- 7) commit ------------------- törətmək veya elediyin deyisikliyi tesdiq edirsen.  commit-in yazilis qaydasi beledir:
+ 7) git commit ------------------- törətmək veya elediyin deyisikliyi tesdiq edirsen.  commit-in yazilis qaydasi beledir:
     git commit -m 'misalcun men bunu deyisdim' <-> bu komanda git add . -den sora yazilir
 
- 8) pull -------------------- çəkmək yeni githubda ki proyekti local-a yeni komp-a cek, yukle ve ya getir
+ 8) git pull -------------------- çəkmək yeni githubda ki proyekti local-a yeni komp-a cek, yukle ve ya getir
 
- 9) push -------------------- təkan veya commit etdikden yeni deyisikliyi tesdiq etdikden sora proyektdi qoyursan git-e
+ 9) git push -------------------- təkan veya commit etdikden yeni deyisikliyi tesdiq etdikden sora proyektdi qoyursan git-e
 
  10) contributor -------------- töhfə verən yeniki senin hansisa proyektivi git-de fork edib sene proyektdinde flan
     yerinde deyisiklik etmeyinle bagli meslehet veirir
@@ -45,42 +45,57 @@
     sora merge etmek yeni qebul etmek ona qalir.
 
  12) fork --------------------- çəngəl yeni git-de kiminse proyektine girirsen sagda yuxarda fork yazilir. fork daxil
-    olub hemin o proyekti oz repsitories-na kopyalayirsan. istesen fork secenden sora create etmezden evvel description
-    hissesine nese bir melumat daxil ede bilersen misalcun: men bu proyektdi flan sebe gore ozumcun kopyaladim
+     olub hemin o proyekti oz repsitories-na kopyalayirsan. istesen fork secenden sora create etmezden evvel description
+     hissesine nese bir melumat daxil ede bilersen misalcun: men bu proyektdi flan sebe gore ozumcun kopyaladim
 
- 13) merge -------------------- birləşmə yeni misalcun iki dene branch-imiz var, biri hal hazirda normal isdeyen
- proyektimiz olan branch-imiz adi misalcun master, diger branch adi ise changed branch olsun.biz master branch-indaki
- kodlari clone-layib changed branch-ina elaveler edirik ve sora isdeyirk ki changed branch-indaki deyislikleri esas
- branch olan master branch-inada kocurek ve ya birlesdirem onda bele yaziriq git merge master ve bele yazdiqda changed
- branch-inda olan deyisiklikler master branch-ina kocurulur.
+ 13) git merge -------------------- birləşmə yeni misalcun iki dene branch-imiz var, biri hal hazirda normal isdeyen
+     proyektimiz olan branch-imiz adi misalcun master, diger branch adi ise changed branch olsun.biz master branch-indaki
+     kodlari clone-layib changed branch-ina elaveler edirik ve sora isdeyirk ki changed branch-indaki deyislikleri esas
+     branch olan master branch-inada kocurek ve ya birlesdirem onda bele yaziriq git merge master ve bele yazdiqda changed
+      branch-inda olan deyisiklikler master branch-ina kocurulur.
 
- 14) branch ------------------- filial yeni git-de hansisa proyektinde ferqli-ferqli isler gormek lazimdi 3 neferde bu
- isleri gormek ucun sene komek eden var bu isleri uc hisseye bolursen bu hisselerde branch-lardi misalcun: BRANCH-1.1,
- BRANCH-1.2, BRANCH-1.3 bax bele 3 hisseye boldukden sora o sene komek eden 3 nefere gorulesi isleri bu 3 dene
- yaratdigim branch-lara bolub verirem 3 nefere haminin oz isi olur hamida bilirki ne is gorecek. birde CMD-de git branch
- kamandasi sene hal hazirda hansi branch-da olduguvu gosterir
+ 14) git branch ------------------- filial yeni git-de hansisa proyektinde ferqli-ferqli isler gormek lazimdi 3 neferde bu
+     isleri gormek ucun sene komek eden var bu isleri uc hisseye bolursen bu hisselerde branch-lardi misalcun: BRANCH-1.1,
+     BRANCH-1.2, BRANCH-1.3 bax bele 3 hisseye boldukden sora o sene komek eden 3 nefere gorulesi isleri bu 3 dene
+     yaratdigim branch-lara bolub verirem 3 nefere haminin oz isi olur hamida bilirki ne is gorecek. birde CMD-de git branch
+     kamandasi sene hal hazirda hansi branch-da olduguvu gosterir
 
- 14) fetch -------------------- gətirmək yeni sen git-de branch ve task-lar yaratmisan misalcun ama komp-un bundan
- xeberi yoxdu git fetch deyende CMD-de bu gedib yoxluyur eger yeni branch-lar yaratmisansa gosterirki new branch nece
- dene branch yaratmisansa hamsin
+ 14) git fetch -------------------- gətirmək yeni sen git-de branch ve task-lar yaratmisan misalcun ama komp-un bundan
+     xeberi yoxdu git fetch deyende CMD-de bu gedib yoxluyur eger yeni branch-lar yaratmisansa gosterirki new branch nece
+     dene branch yaratmisansa hamsin
  
  15) new pull request -------- yeni çəkmə tələbi yeniki misalcun men Sabirin proyektin fork eledim ozume ve ozumde
- bu proyektin icinde nese deyisiklikler etdim sorada daxil oluram Pull Request-e sora daxil oluram new pull request-e
- gorursenki orda iki dene xananin icinde yazi var base repo ve head repo ve orda sagdan sola dogru ox var yeniki menden
- bu proyektin icinde elediyim deyisiklikleri kimden fork elemisemse yeni proyektin esas sahibine sorgu gonderki mende ki
- kodlari veya menim senin proyektinde elediyim deyisiklikleri ozune dart veya cek ozune bax nelerde deyisiklik etmisem
- ve sora create pull request-e daxil olub sen bu kodlarda ne deyisiklik etmisense olari yazirsan gonderdiyin adam acib
- deyisikliklere baxanda bilsinki sen harda deyisiklik etmisen
+     bu proyektin icinde nese deyisiklikler etdim sorada daxil oluram Pull Request-e sora daxil oluram new pull request-e
+     gorursenki orda iki dene xananin icinde yazi var base repo ve head repo ve orda sagdan sola dogru ox var yeniki menden
+     bu proyektin icinde elediyim deyisiklikleri kimden fork elemisemse yeni proyektin esas sahibine sorgu gonderki mende ki
+     kodlari veya menim senin proyektinde elediyim deyisiklikleri ozune dart veya cek ozune bax nelerde deyisiklik etmisem
+     ve sora create pull request-e daxil olub sen bu kodlarda ne deyisiklik etmisense olari yazirsan gonderdiyin adam acib
+     deyisikliklere baxanda bilsinki sen harda deyisiklik etmisen
 
  16) switch ------------------ keçid yeni misalcun iki dene brnach var birinin adi eli obirinin adida veli. sen eli
- brnach-indan veli brnach-ina kecmek isdedikde terminalda yazirsan ki git checkout veli ve bele yazdiqda eli branch-indan
- kecid edir veli brnach-ina yeni switch edir.
+     branch-indan veli brnach-ina kecmek isdedikde terminalda yazirsan ki git checkout veli ve bele yazdiqda eli
+     branch-indan kecid edir veli brnach-ina yeni switch edir.
 
  17) issues ------------------ məsələlər yeni issues-da tapsiriqlar yazilir
 
- 18) checkout ---------------- yoxla yeni CMD-de [git checkout BRNACH-1.1] bele yazsan bu gedib esas master branch-dan
- gedib daxil olacaq yazdigin branch-a. yeni git checkout (her hansisa branch adi) yazdiqda hazirda oldugu branch-dan
- kecid edecek adini yazdigin branch-a. birde bele esas mealumat verim ki eger terminalda branch-lar arasinda kecid
- etmek istedik gerek yeni brnach yaradsan biri var gedib branch gedib github-da yaradasan biride var hazir terminalda
- birbasa git checkout -b newBranch (-b yazdiqda ele terminalda birbasa yeni branch yaradirsan sorada yaradacagin
- branch adin yazirsan)
+ 18) git checkout ---------------- yoxla yeni CMD-de [git checkout BRNACH-1.1] bele yazsan bu gedib esas master branch-dan
+     gedib daxil olacaq yazdigin branch-a. yeni git checkout (her hansisa branch adi) yazdiqda hazirda oldugu branch-dan
+     kecid edecek adini yazdigin branch-a. birde bele esas mealumat verim ki eger terminalda branch-lar arasinda kecid
+     etmek istedik gerek yeni brnach yaradsan biri var gedib branch gedib github-da yaradasan biride var hazir
+     terminalda birbasa git checkout -b newBranch (-b yazdiqda ele terminalda birbasa yeni branch yaradirsan sorada
+     yaradacagin branch adin yazirsan)
+
+ 19) git cherry-pick --------- baasqa branch-daki umumi butun fayllari yoxda xususi ile bezi fayllari goturmek
+     isdeyirsense onda bu git cherry-pick emrinden istifade edirsen. nece?. birinci git log deyib gorduyumuz islerin
+     tarixcesini aliriq sora xususi ile isdediyimiz fayllarin git log etdikden sora diqqetle baxsaq gorerik ki
+     commit yazisinin onunde qarisiq yazilar var, hemin o yazilar, butun fayllarin ayri-ayriliqda hashcode-laridir.
+     yeniki xususi ile goturmek isdediyimiz fayllarin hashcode-larin kopyalayib sora yaziriq git cherry-pick sorada
+     isdediyimiz faylin hashcode-u.
+
+ 20) git log ----------------- bu emri yazdiqda git bize oldugumuz prayektde gorduyumuz islerin tarixcelerini verir ve
+     commit-lerin hashcode-larini verir. bu commit-lerin hashcode-lari git cherry-pick emrinde istifade olunur.
+
+ 21) HEAD -------------------- git log emrin yazdiqda cixan yazilar icinde lap yuxarda diqqetnen baxilsa HEAD yazilib
+     bu o demekdir sen indi hardasan yeni en axrinci commit hansidirsa mende ordayam en axrinci commit-de sanki basda
+     durmusam ve sen deyirsenki menim axrinci daxil etdiyim commit-i serf eledim nece qeriye qaytarim? sonuncu daxil
+     etdiyin commit geriye qaytarmaq isdeyirsense
