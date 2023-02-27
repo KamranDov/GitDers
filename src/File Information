@@ -37,13 +37,22 @@
     yerinde deyisiklik etmeyinle bagli meslehet veirir
 
  11) collaborator ------------- əməkdaş yeniki senin master oldugun proyektde git-de settings-den daxil collaborator
-    secib isdeyin adami ora daxil etsen hemin adam senden icaze almadan hemin proyektde deyisiklik ede biler
+    secib isdeyin adami ora daxil etsen hemin adam oz branch-ini yaradib esas branch-da olan kodlari oz branch-ina
+    clone ede biler ve icinde oz deyisikliklerin ede biler ama bu deyisiklikleri esas branchdaki kodlara push ede
+    bilmez, cunki collaborator yeni proyektde soradan daxil olan sexs bu proyektin manager-i deyil oan gore push ede
+    bilmez ama bu eledikleri deyisiklikleri bu proyektin manager-ine sorgu seklinde gondere biler yeni new pull request
+    gonderib icinde deyisdikleri kodlarin aciqlamasini verib murraciet ede biler ve sora manager pull request-de baxib
+    sora merge etmek yeni qebul etmek ona qalir.
 
  12) fork --------------------- çəngəl yeni git-de kiminse proyektine girirsen sagda yuxarda fork yazilir. fork daxil
     olub hemin o proyekti oz repsitories-na kopyalayirsan. istesen fork secenden sora create etmezden evvel description
     hissesine nese bir melumat daxil ede bilersen misalcun: men bu proyektdi flan sebe gore ozumcun kopyaladim
 
- 13) merge -------------------- birləşmə
+ 13) merge -------------------- birləşmə yeni misalcun iki dene branch-imiz var, biri hal hazirda normal isdeyen
+ proyektimiz olan branch-imiz adi misalcun master, diger branch adi ise changed branch olsun.biz master branch-indaki
+ kodlari clone-layib changed branch-ina elaveler edirik ve sora isdeyirk ki changed branch-indaki deyislikleri esas
+ branch olan master branch-inada kocurek ve ya birlesdirem onda bele yaziriq git merge master ve bele yazdiqda changed
+ branch-inda olan deyisiklikler master branch-ina kocurulur.
 
  14) branch ------------------- filial yeni git-de hansisa proyektinde ferqli-ferqli isler gormek lazimdi 3 neferde bu
  isleri gormek ucun sene komek eden var bu isleri uc hisseye bolursen bu hisselerde branch-lardi misalcun: BRANCH-1.1,
@@ -58,12 +67,14 @@
  15) new pull request -------- yeni çəkmə tələbi yeniki misalcun men Sabirin proyektin fork eledim ozume ve ozumde
  bu proyektin icinde nese deyisiklikler etdim sorada daxil oluram Pull Request-e sora daxil oluram new pull request-e
  gorursenki orda iki dene xananin icinde yazi var base repo ve head repo ve orda sagdan sola dogru ox var yeniki menden
- bu proyektin icinde elediyim deyisiklikleri kimden for elemisemse yeni proyektin esas sahibine sorgu gonderki mende ki
+ bu proyektin icinde elediyim deyisiklikleri kimden fork elemisemse yeni proyektin esas sahibine sorgu gonderki mende ki
  kodlari veya menim senin proyektinde elediyim deyisiklikleri ozune dart veya cek ozune bax nelerde deyisiklik etmisem
  ve sora create pull request-e daxil olub sen bu kodlarda ne deyisiklik etmisense olari yazirsan gonderdiyin adam acib
  deyisikliklere baxanda bilsinki sen harda deyisiklik etmisen
 
- 16) switch ------------------ keçid
+ 16) switch ------------------ keçid yeni misalcun iki dene brnach var birinin adi eli obirinin adida veli. sen eli
+ brnach-indan veli brnach-ina kecmek isdedikde terminalda yazirsan ki git checkout veli ve bele yazdiqda eli branch-indan
+ kecid edir veli brnach-ina yeni switch edir.
 
  17) issues ------------------ məsələlər yeni issues-da tapsiriqlar yazilir
 
