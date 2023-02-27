@@ -93,7 +93,9 @@
      isdediyimiz faylin hashcode-u.
 
  20) git log ----------------- bu emri yazdiqda git bize oldugumuz prayektde gorduyumuz islerin tarixcelerini verir ve
-     commit-lerin hashcode-larini verir. bu commit-lerin hashcode-lari git cherry-pick emrinde istifade olunur.
+     commit-lerin hashcode-larini verir. bu commit-lerin hashcode-lari git cherry-pick emrinde istifade olunur. birde
+     bele bir sey qey edimki git log dedikde lap asda emrleri yazdigin yerde hecne yazmaq olmur sadece iki noqte :
+     bele olur bundan cixmaq ucun q herifini basirsan cixir ordan.q herifi yeni quit yeni cixis.
 
  21) HEAD -------------------- git log emrin yazdiqda cixan yazilar icinde lap yuxarda diqqetnen baxilsa HEAD yazilib
      bu o demekdir sen indi hardasan yeni en axrinci commit hansidirsa mende ordayam en axrinci commit-de sanki basda
