@@ -24,10 +24,16 @@
  6) git add . ------------------- git add . git clone-dan sora adinda da belli oldugu kimi proyekte etdiyin deyisikliyi
     git-deki proyekte elave etmek ucun yazilir. ve basqa istifadesin deyim misalcun terminalda git init deyib proyekti
     git ile elaqelendirdikden sora yeni local-da komp-la, sora git commit - m "loop" deyib tesdiqleyirsen yeni
-    proyektimizde butun fayllarin git-de tesdiqlensin yeniki heqiqetende bu
+    proyektimizde butun fayllarin git-de tesdiqlensin.
+    Sora tutaq ki sen serfen butun fayllari add etdin ama sen bir fayli add etmek isdeyirdin onda add etdiyin butun
+    fayllari geriye qaytarmaq ucun (git reset) komandansindan istifade edirsen.Ama sen add etdiyin fayllardan yalniz
+    bir fayli geriye qaytarmaq isdeyirsense onda (git reset <faylin adi> yazsan hemin adin yazdigin fayli geriye qaytaracaq.
 
  7) git commit ------------------- törətmək veya elediyin deyisikliyi tesdiq edirsen.  commit-in yazilis qaydasi beledir:
-    git commit -m 'misalcun men bunu deyisdim' <-> bu komanda git add . -den sora yazilir
+    git commit -m 'misalcun men bunu deyisdim' <-> bu komanda git add . -den sora yazilir.
+    Eger en sonuncu commit-inde bir serf varsa ve onu deyismek isdeyirsense onda asagda yazdigim komandalardan istifade etmelisen:
+    git commit --amend -m "isdediyin yeni commit bura yaz." bunu yazdiqdan sora asagdaki kimi yeni commit-vi push et remote-a:
+    git push --force -u origin veya da bele push et : git push --force <remoteName> <branchName>
 
  8) git pull -------------------- çəkmək yeni githubda ki proyekti local-a yeni komp-a cek, yukle ve ya getir
 
@@ -51,7 +57,7 @@
  13) git merge -------------------- birləşmə yeni misalcun iki dene branch-imiz var, biri hal hazirda normal isdeyen
      proyektimiz olan branch-imiz adi misalcun master, diger branch adi ise changed branch olsun.biz master branch-indaki
      kodlari clone-layib changed branch-ina elaveler edirik ve sora isdeyirk ki changed branch-indaki deyislikleri esas
-     branch olan master branch-inada kocurek ve ya birlesdirem onda bele yaziriq git merge master ve bele yazdiqda changed
+     branch olan master branch-inada kocurek ve ya birlesdirim onda bele yaziriq git merge master ve bele yazdiqda changed
       branch-inda olan deyisiklikler master branch-ina kocurulur.
 
  14) git branch ------------------- filial yeni git-de hansisa proyektinde ferqli-ferqli isler gormek lazimdi 3 neferde bu
@@ -60,7 +66,7 @@
      yaratdigim branch-lara bolub verirem 3 nefere haminin oz isi olur hamida bilirki ne is gorecek. birde CMD-de git branch
      kamandasi sene hal hazirda hansi branch-da olduguvu gosterir
 
- 14) git fetch -------------------- gətirmək yeni sen git-de branch ve task-lar yaratmisan misalcun ama komp-un bundan
+ 14) git fetch -------------------- gətirmək: yeni sen git-de branch ve task-lar yaratmisan misalcun ama komp-un bundan
      xeberi yoxdu git fetch deyende CMD-de bu gedib yoxluyur eger yeni branch-lar yaratmisansa gosterirki new branch nece
      dene branch yaratmisansa hamsin
  
@@ -102,3 +108,4 @@
      durmusam ve sen deyirsenki menim axrinci daxil etdiyim commit-i serf eledim nece qeriye qaytarim? sonuncu daxil
      etdiyin commit geriye qaytarmaq isdeyirsense git reset --hard HEAD~1 bu emir yazdiqda bir commit geriye qayidacaq.
      birde bunu qeyd edimki nece commit geriye qayitmagin isdeyirsense HEAD~ sora o commit sayini qeyd edirsen.
+
