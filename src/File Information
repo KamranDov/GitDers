@@ -3,6 +3,9 @@
     komp-da git sayesinde yaranir.github ise bir cloud-dur yeni baza veya boyuk yaddasli bir yerdir isdesen proyektivi
     github-in icinde yukleyib saxliya bilersen.
 
+    origin - origin demek senin hazirda remote-da is gorduyun repo demekdir. yazdigin bezi commandalarda bezen origin-de
+    yazirsan push falan etdikde. Yeniki demek isdeyirki her hansisa deyisikliyi hemin oldugum repoya push edirem.
+
  1) cd ---------------------- Git CMD-de harasa daxil olmaq ucun cd yazilir sora daxil olmaq isdeyin yer.
 
  2) cd .. ------------------- Git CMD-de hazirda daxil oldugun yerde bir seyfe evvele qayidmaq ucun cd .. yazilir.
